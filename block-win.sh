@@ -14,3 +14,12 @@ iptables -A INPUT -p tcp --tcp-flags SYN,RST,ACK SYN -m u32 --u32 "4&0xFFFF=0xFF
 
 #-----------------------------------------
 These rules will drop any incoming TCP SYN packet with a window size of 64240, 64320, or 65535.
+
+#--------------------------------------------
+
+!!!!!!!!!!!!!!!                  WARNING                    !!!!!!!!!!!!!!!!!!!
+
+This article is for educational purposes only, the author is not responsible for their misuse by unauthorized persons.
+
+best regards,
+Arlind Rexha
