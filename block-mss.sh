@@ -27,3 +27,12 @@ iptables -A INPUT -p tcp --sport 1024: --tcp-flags SYN,RST,ACK SYN -m u32 --u32 
 
 #----------------------------------------------
 These rules will drop any incoming TCP SYN packet with an MSS value of 1480, 1460, 1440, 1420, 1400, or 1380.
+
+#--------------------------------------------
+
+!!!!!!!!!!!!!!!                  WARNING                    !!!!!!!!!!!!!!!!!!!
+
+This article is for educational purposes only, the author is not responsible for their misuse by unauthorized persons.
+
+best regards,
+Arlind Rexha
