@@ -35,3 +35,12 @@ iptables -A INPUT -p tcp --tcp-flags ALL ALL -j DROP
 #---------------------------------------------
 iptables -A INPUT -p tcp --tcp-flags SYN,RST,ACK SYN -m length --length 59 -j DROP
 #Block ip's which they send more than 59 length
+
+#--------------------------------------------
+
+!!!!!!!!!!!!!!!                  WARNING                    !!!!!!!!!!!!!!!!!!!
+
+This article is for educational purposes only, the author is not responsible for their misuse by unauthorized persons.
+
+best regards,
+Arlind Rexha
