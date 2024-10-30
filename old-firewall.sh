@@ -30,5 +30,11 @@ iptables -t mangle -A PREROUTING -p tcp ! --syn -m conntrack --ctstate NEW -j DR
 iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
 #This rule targets packets that do not have a valid connection tracking state, which may indicate malformed packets, potential attacks, or unexpected traffic.
 
+#--------------------------------------------
 
-#--------------------------------------------------
+!!!!!!!!!!!!!!!                  WARNING                    !!!!!!!!!!!!!!!!!!!
+
+This article is for educational purposes only, the author is not responsible for their misuse by unauthorized persons.
+
+best regards,
+Arlind Rexha
